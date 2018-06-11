@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script src="tool.js"></script>
+    <title>スケジュール詳細</title>
+  </head>
+  <body>
+    <header>
+      <h2>
+        <a href="calendar.html">
+          <img src="images/logo.png">
+        </a>4月1日のスケジュール
+      </h2>
+    </header>
+        <h2><script>showDate()</script>です</h2>
+    
+    <table class="detail" border="solid">
+    <colgroup id=time>
+    <colgroup id=important>
+    <colgroup id=usual>
+    <colgroup id=else>
+    <colgroup id=memo>
+    
+    <tr>
+    <th id="S" colspan="5">スケジュールリスト</colspan>
+    </tr>
+    <tr>
+    <th id="T">時間</th><th id="I">重要</th><th id="U">通常業務</th><th id="E">その他</th><th id="M">メモ</th>
+    </tr>
+    <tr>
+    <td class="t"><b>10:00</b></td><td>株式会社Java様打ち合わせ<br>場所:応接室A</td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+    <td class="t"><b>13:00</b></td><td></td><td>研修準備</td><td></td><td>資料完成後、テクノ課長に印刷依頼</td>
+    </tr>
+    <tr>
+    <td class="t"><b>16:00</b></td><td>株式会社SQL様TEL<br>用件:請求書の確認依頼</td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+    <td class="t"><b>17:00</b></td><td></td><td></td><td>飲み会メールの送信</td><td>20日にリマインド<br>22日までに、お店に人数を伝える</td>
+    </tr>
+    </table>
+    
+    <div id="wrapper">
+		   <div id="A"> <span class="btn"><a href="calendar.html">マイページ</a></span>
+		   </div>
+		   <div id="B"><span class="btn"><a href="logout.html">ログアウト</a></span>
+		   </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+      <small>Copyright &copy; C-Sche, all rights reserved.</small>
+    </footer>
+  </body>
+</html>
