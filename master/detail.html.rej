@@ -1,0 +1,9 @@
+diff a/master/detail.html b/master/detail.html	(rejected hunks)
+@@ -13,7 +13,6 @@
+       <h2>
+         <a href="calendar.html">
+           <img src="images/logo.png">
+-        </a>4月1日のスケジュール
+         </a>4月90日のスケジュール
+       </h2>
+     </header>
